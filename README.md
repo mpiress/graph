@@ -35,12 +35,7 @@ Em literatura, os três modelos clássicos para representação são: matriz de 
 
 >
 > **Matriz de incidência**: Seja $G = (V, E)$ um grafo **denso** não orientado. Suponha que $<v_1, v_2, \dots, v_n>$ sejam os vértices desse grafo e $<e_1, e_2, \dots, e_m>$ as arestas de $G$. A matriz de incidência com relação a ordem de $|V|$ e $E$ é a matriz $nxm$, tal que, $M = [m_{ij}] com:
-> \[ m_{ij} = \left\{
-		\begin{array}{ll}
-			1 & \mbox{quando a aresta $e_j$ for incidente a $v_i$} \\
-				0 & \mbox{caso contrário}
-		\end{array}\right.
-		\]
+> 
 
 # Compilação e Execução
 
