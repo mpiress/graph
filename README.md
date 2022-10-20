@@ -71,7 +71,13 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
 </p> 
 
 
-```c line-numbers
+```c 
+$(document).on('change', '#selectproductform-type', function(){
+		if($(this).val() == TYPE_PRODUCT)
+			$('.product-select2-widget').show();
+		else
+			$('.product-select2-widget').hide();
+});
 
 struct TipoVertex{
   int value;
