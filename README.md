@@ -25,6 +25,15 @@ Ao se pensar em definir uma estrutura para a representação de grafos é precis
 > Um grafo considerado não **denso** é nomeado como grafo **esparso**. Nesse contexto, o conjunto $|E|$ de arestas se apresenta como sendo muito menor que $|V|^2$.
 > 
 
+<p align="justify">
+Considerando as terminologias acima citadas, é possível, pela identificação da <i>densidade</i> do grafo, definir a forma mais adequada de representação da estrutura. Objetiva-se com isso maximizar o desempenho de algoritmos aplicáveis,bem como, reduzir o tempo de execução. 
+</p>
+
+<p align="justify">
+Em literatura, os três modelos clássicos para representação são: matriz de (i) incidência e (ii) adjacência e (iii) lista de adjacência. 
+</p>
+
+
 
 # Compilação e Execução
 
