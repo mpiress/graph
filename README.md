@@ -71,7 +71,7 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
 </p> 
 
 
-```{C, attr.source='.numberLines'}
+```c line-numbers
 
 struct TipoVertex{
   int value;
