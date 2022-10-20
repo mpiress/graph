@@ -70,8 +70,10 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
   <caption> <b>Fig 3.</b> Pequeno exemplo de representação por lista de adjacência para grafos orientados e não orientados.</caption>
 </p> 
 
+Conforme pode ser observado, a lista de adjacência define uma estrutura em duas etapas. Primeiramente, define um vetor para representar os vértices do grafo. A partir do vetor representativo, detalha uma lista simplesmente encadeada por posição do vetor para representar as relações de cada vértice. A seguir tem-se a definição de uma estrutura básica descrita segundo padrões da linguagen c/c++. 
 
-```c $(document).on('change','#selectproductform-type',function(){if($(this).val() == TYPE_PRODUCT)$('.product-select2-widget').show();else$('.product-select2-widget').hide();});
+
+```c++ $(document).on('change','#selectproductform-type',function(){if($(this).val() == TYPE_PRODUCT)$('.product-select2-widget').show();else$('.product-select2-widget').hide();});
 
  struct TipoVertex{
    int value;
