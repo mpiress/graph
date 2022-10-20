@@ -14,7 +14,7 @@
 <p> </p>
 
 <p align="justify">
-Ao pensar em definir uma estrutura para a representação de grafos é preciso inicialmente considerar sua densidade, ou seja, sua relação entre vértices (V) e arestas (E). 
+Ao se pensar em definir uma estrutura para a representação de grafos é preciso inicialmente considerar sua <b>densidade</b>, ou seja, sua relação entre vértices (V) e arestas (E). 
 </p>
 
 >
