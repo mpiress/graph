@@ -84,7 +84,7 @@ struct graph{
   Vertex *adj; //LISTA DE ADJ
 };
 
-```
+```c
 
 # Compilação e Execução
 
