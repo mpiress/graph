@@ -63,7 +63,12 @@ A Fig 2 detalha um pequeno exemplo de representação utilizando a estrutura mat
 > **Lista de adjacência**: A lista de adjacência é a estrutura mais utilizada para representação de grafos, pirncipalmente para casos de grafos **esparsos**. A representação de uma lista $Adj$ de adjacência de um grafo $G=(V,E)$ consiste em um arrando de $|V|$ listas, uma para cada vértice $u$ existente em $|V|$. Logo, para cada $u \in V$, a lista de adjacência $Adj[u]$ comtém todos os vértices $v$ que definem uma aresta { $u,v$ } $\in E$.
 >
 
-A representação por lista de adjacência é uma boa opção quando o grafo é *esparso* e **não há** arestas múltiplas. Em geral, os vértices de cada lista de adjacência estão armazenados em **ordem arbitrária**.
+A representação por lista de adjacência é uma boa opção quando o grafo é *esparso* e **não há** arestas múltiplas. Em geral, os vértices de cada lista de adjacência estão armazenados em **ordem arbitrária**. A Fig 3 detalha um pequeno exemplo de representação utilizando a estrutura lista de adjacência para descrevere um grafo simples.
+
+<p align="center">
+  <img src="imgs/exemplo3.png" /><br/>
+  <caption> <b>Fig 3.</b> Pequeno exemplo de representação por lista de adjacência para grafos orientados e não orientados.</caption>
+</p> 
 
 # Compilação e Execução
 
