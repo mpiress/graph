@@ -71,7 +71,7 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
 </p> 
 
 
-```
+```C
 struct TipoVertex{
   int value;
   Vertex prox;
@@ -84,7 +84,7 @@ struct graph{
   Vertex *adj; //LISTA DE ADJ
 };
 
-```c
+```
 
 # Compilação e Execução
 
