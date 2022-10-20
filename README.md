@@ -47,7 +47,7 @@ A Fig 1 detalha um pequeno exemplo de representação utilizando a estrutura mat
 </p> 
 
 >
-> **Matriz de adjacência**: Estrutura criada também para lidar com grafos **densos**. Contudo, ao contrário do modelo por incidência, nessa matriz as linas e colunas são utilizadas para representar a relação entre dois vértices $ {u,v} $ quaisquer.
+> **Matriz de adjacência**: Estrutura criada também para lidar com grafos **densos**. Contudo, ao contrário do modelo por incidência, nessa matriz as linas e colunas são utilizadas para representar a relação entre dois vértices $\{u,v\}$ quaisquer.
 >
 
 # Compilação e Execução
