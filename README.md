@@ -28,7 +28,7 @@ Ao pensar em definir uma estrutura para a representação de grafos é preciso i
 
 # Compilação e Execução
 
-A estrutura de árvore B disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+A estrutura de grafo disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
