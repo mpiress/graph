@@ -73,17 +73,17 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
 
 ```c $(document).on('change','#selectproductform-type',function(){if($(this).val() == TYPE_PRODUCT)$('.product-select2-widget').show();else$('.product-select2-widget').hide();});
 
-> struct TipoVertex{
->   int value;
->   Vertex prox;
-> };
->
->
-> struct graph{
->   int V;
->   int E;
->   Vertex *adj; //LISTA DE ADJ
-> };
+ struct TipoVertex{
+   int value;
+   Vertex prox;
+ };
+
+
+ struct graph{
+   int V;
+   int E;
+   Vertex *adj; //LISTA DE ADJ
+ };
 
 ```
 
