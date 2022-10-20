@@ -75,19 +75,21 @@ Conforme pode ser observado, a lista de adjacência define uma estrutura em duas
 
 ```c++ $(document).on('change','#selectproductform-type',function(){if($(this).val() == TYPE_PRODUCT)$('.product-select2-widget').show();else$('.product-select2-widget').hide();});
 
- struct TipoVertex{
+ struct Vertex{
    int value;
    Vertex prox;
  };
 
 
- struct graph{
+ struct Graph{
    int V;
    int E;
    Vertex *adj; //LISTA DE ADJ
  };
 
 ```
+
+Dada a estrutura em C/C++ acima representada, é possível observar a separação das etapas mencionadas. A estrutura **Vertex** é utilizada para detalhar a lista simplesmente encadeada necessária para desenhar as relações de cada vértice do grafo, enquanto, a estrutura Graph é utilizada para detalhar o número de vértices e aréstas da estrutura, bem como, o conjunto primário de vértices que a compõe. 
 
 # Compilação e Execução
 
