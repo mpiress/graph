@@ -70,6 +70,22 @@ A representação por lista de adjacência é uma boa opção quando o grafo é 
   <caption> <b>Fig 3.</b> Pequeno exemplo de representação por lista de adjacência para grafos orientados e não orientados.</caption>
 </p> 
 
+
+'''
+struct TipoVertex{
+  int value;
+  Vertex prox;
+};
+
+
+struct graph{
+  int V;
+  int E;
+  Vertex *adj; //LISTA DE ADJ
+};
+
+'''
+
 # Compilação e Execução
 
 A estrutura de grafo disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
