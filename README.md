@@ -43,7 +43,7 @@ A Fig 1 detalha um pequeno exemplo de representação utilizando a estrutura mat
 
 <p align="center">
   <img src="imgs/exemplo1.png" /><br/>
-  <caption>Fig 1. Pequeno exemplo de representação por matriz de incidência para grafos orientados e não orientados.</caption>
+  <caption> <b>Fig 1.</b> Pequeno exemplo de representação por matriz de incidência para grafos orientados e não orientados.</caption>
 </p> 
 
 
