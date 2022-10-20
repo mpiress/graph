@@ -34,10 +34,18 @@ Em literatura, os três modelos clássicos para representação são: matriz de 
 </p>
 
 >
-> **Matriz de incidência**: Seja $G = (V, E)$ um grafo **denso** não orientado. Suponha que $< v_1, v_2, \dots, v_n >$ sejam os vértices desse grafo e $< e_1, e_2, \dots, e_m >$ as arestas de $G$. A matriz de incidência com relação a ordem de $|V|$ e $|E|$ é a matriz $nxm$, tal que, $M = [m_{ij}]$ com:
+> **Matriz de incidência**: Seja $G = (V, E)$ um grafo **denso**. Suponha que $< v_1, v_2, \dots, v_n >$ sejam os vértices desse grafo e $< e_1, e_2, \dots, e_m >$ as arestas de $G$. A matriz de incidência com relação a ordem de $|V|$ e $|E|$ é a matriz $nxm$, tal que, $M = [m_{ij}]$ com:
 > <p align="center">
 >   <img src="imgs/incidencia.png" width="70%" /><br/>
 > </p>
+
+A Fig 1 detalha um pequeno exemplo de representação utilizando a estrutura matriz de incidênia para descrevere um grafo simples. 
+
+<p align="center">
+  <img src="imgs/exemplo1.png" /><br/>
+  <caption>Fig 1. Pequeno exemplo de representação por matriz de incidência para grafos orientados e não orientados.</caption>
+</p> 
+
 
 # Compilação e Execução
 
