@@ -34,7 +34,7 @@ Em literatura, os três modelos clássicos para representação são: matriz de 
 </p>
 
 >
-> **Matriz de incidência**: Seja $G = (V, E)$ um grafo **denso** não orientado. Suponha que $< v_1, v_2, \dots, v_n >$ sejam os vértices desse grafo e $<e_1, e_2, \dots, e_m>$ as arestas de $G$. A matriz de incidência com relação a ordem de $|V|$ e $E$ é a matriz $nxm$, tal que, $M = [m_{ij}] com:
+> **Matriz de incidência**: Seja $G = (V, E)$ um grafo **denso** não orientado. Suponha que $< v_1, v_2, \dots, v_n >$ sejam os vértices desse grafo e $< e_1, e_2, \dots, e_m >$ as arestas de $G$. A matriz de incidência com relação a ordem de $|V|$ e $|E|$ é a matriz $nxm$, tal que, $M = [m_{ij}] com:
 > 
 
 # Compilação e Execução
