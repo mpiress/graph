@@ -49,9 +49,15 @@ A Fig 1 detalha um pequeno exemplo de representação utilizando a estrutura mat
 >
 > **Matriz de adjacência**: Estrutura criada também para lidar com grafos **densos**. Contudo, ao contrário do modelo por incidência, nessa matriz as linas e colunas são utilizadas para representar a relação entre dois vértices { $u,v$ } quaisquer.Logo, a matriz de adjacência $A$ ou $A_G$ de $G = (V,E)$ é a matriz *zero-um* $nxn$ com $(i,j)$ em 1 para representar a relação de adjacência de $v_i$ e $v_j$ e 0 caso contrário. Então, dados $A=[a_{ij}]$ logo:
 > <p align="center">
->   <img src="imgs/adj1.png" width="60%" /><br/>
+>   <img src="imgs/adj1.png" width="50%" /><br/>
 > </p>
 
+A Fig 2 detalha um pequeno exemplo de representação utilizando a estrutura matriz de adjacência para descrevere um grafo simples. 
+
+<p align="center">
+  <img src="imgs/exemplo2.png" /><br/>
+  <caption> <b>Fig 2.</b> Pequeno exemplo de representação por matriz de adjacência para grafos orientados e não orientados.</caption>
+</p> 
 
 # Compilação e Execução
 
