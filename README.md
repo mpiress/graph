@@ -1,1 +1,1 @@
-# Representação para grafos: Lista de Adjacência
+# Grafos: Lista de Adjacência
