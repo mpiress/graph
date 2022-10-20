@@ -18,5 +18,9 @@ Ao pensar em definir uma estrutura para a representação de grafos é preciso i
 </p>
 
 >
-> Se um grafo apresenta muitas conexões ou arestas dentre os múltiplos vértices existentes esse é classificado como grafo **denso**. Um grafo é dito **denso**, se somente se, o número de arestas $|E|$ é próximo de $|V|^2$.
+> Se um grafo apresenta muitas conexões ou arestas dentre os múltiplos vértices existentes esse é classificado como grafo **denso**. Segundo Cormen 2012[1], um grafo é dito **denso**, se somente se, o número de arestas $|E|$ é próximo de $|V|^2$.
 >
+
+>
+> Um grafo considerado não **denso** é nomeado como grafo **esparso**. Nesse contexto, o conjunto $|E|$ de arestas se apresenta como sendo muito menor que $|V|^2$.
+> 
